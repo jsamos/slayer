@@ -1,4 +1,4 @@
-<?php namespace namespace Slayer;
+<?php namespace Slayer;
 
 use \Illuminate\Support\Facades\Facade as LaravelFacade;
 

@@ -1,0 +1,15 @@
+{
+    "name": "jsamos/slayer",
+    "description": "",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Slayer": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

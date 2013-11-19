@@ -32,7 +32,7 @@ abstract class AbstractConfigurableService
     *
     * @param string $name
     * @param array $val
-    * @return Dws\Slender\Api\Service\AbstractConfigurableService
+    * @return Slayer\AbstractConfigurableService
     */
     public function setConfig($name, $val)
     {            

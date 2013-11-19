@@ -1,8 +1,7 @@
-<?php namespace Dws\Slender\Api\Service;
+<?php namespace Slayer;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Config;
-use Dws\Slender\Api\Service\Factory;
 
 class ServiceProvider extends BaseServiceProvider {
 

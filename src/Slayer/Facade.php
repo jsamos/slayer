@@ -1,4 +1,4 @@
-<?php namespace Dws\Slender\Api\Service;
+<?php namespace namespace Slayer;
 
 use \Illuminate\Support\Facades\Facade as LaravelFacade;
 

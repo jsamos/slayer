@@ -1,6 +1,4 @@
-<?php namespace Dws\Slender\Api\Service;
-
-use Dws\Slender\Api\Service\AbstractConfigurableService;
+<?php namespace Slayer;
 
 class Factory extends AbstractConfigurableService
 {

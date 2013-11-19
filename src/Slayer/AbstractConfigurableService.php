@@ -1,4 +1,4 @@
-<?php namespace Dws\Slender\Api\Service;
+<?php namespace Slayer;
 
 abstract class AbstractConfigurableService
 {

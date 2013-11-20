@@ -93,13 +93,13 @@ class Factory extends AbstractConfigurableService
 
         $config = $this->loadServiceConfigOrFail($name);
         
-        $class =  $config['class'];
-        $config = $config['config'];
+        $class = array_get($config, 'class') ?: 'Slayer\Factory';
+        $config = array_get($config, 'config');
 
         if (isset($config['services']))
             $config['services'] = $this->configureServices($config['services']);
 
-        return new $class($config);
+        return ($config) ? new $class($config) : new $class;
 
     }
 

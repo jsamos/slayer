@@ -4,7 +4,7 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "illuminate/support": "4.0.x"
+        "illuminate/support": "4.x"
     },
     "autoload": {
         "psr-0": {

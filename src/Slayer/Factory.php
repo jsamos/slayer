@@ -78,7 +78,7 @@ class Factory extends AbstractConfigurableService
     * @param mixt
     * @return mixt
     */
-    public function setSingleton($service)
+    public function setSingleton($name, $service)
     {
         $this->services[$name] = $service;
         return $this;
